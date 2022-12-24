@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NDS</title>
     <link rel="icon" type="image/png" href="https://www.freepnglogos.com/uploads/circle-png/red-circle-fox-tail-transparent-images-5.png">
+    <script src="PureSnow.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@800&display=swap');
         body{
@@ -55,12 +56,27 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
         }
+        .snowflake {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(white, white);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 10px white);
+}
+#snow{
+    position:fixed;
+    width:100%;
+    height: 100%;
+    z-index: 1000;
+}
     </style>
 </head>
 <body>
+    <div id="snow"></div>
     <div class="main">
-        <img class="x" src="ha.jpg" alt="">
+        <img class="x" src="hax.jpg" alt="">
     </div>
-    <div class="t"><h1>Hello my little friends!</h1></div>
+    <div class="t"><h1>Happy New Year 2023</h1></div>
 </body>
 </html>
